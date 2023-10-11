@@ -15,7 +15,7 @@ public class Main {
         boolean ativa_proximo = false; // declara ativador para sair do while
         do { // do while
             tipo = sc_tipo.nextInt(); // aparece o scanner (input)
-            if (tipo >= 3 || tipo <= 0) { // verifica se é valido
+            if (tipo > 3 || tipo <= 0) { // verifica se é valido
 
                 System.out.println("Insira um número válido");
             } else {

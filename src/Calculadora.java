@@ -53,17 +53,19 @@ public class Calculadora {
         int num_print;
         switch (this.tipo){
             case 1: // Tabuada
-                for (int i = 0; i<=num2; i++){
+                for (int i = 0; i<=num2; i++) {
                     num_print = num1 * i;
                     System.out.println(num1 + " x " + i + " = " + num_print);
                 }
+                break;
             case 2: // Soma
                 num_print = num1 + num2;
                 System.out.println(num1 + " + " + num2 + " = " + num_print);
+                break;
             case 3: // multiplicacao
                 num_print = num1 * num2;
                 System.out.println(num1 + " x " + num2 + " = " + num_print);
-
+                break;
         }
 
     }
