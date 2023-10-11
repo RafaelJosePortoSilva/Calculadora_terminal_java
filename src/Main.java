@@ -25,8 +25,8 @@ public class Main {
         }while (!ativa_proximo);
 
         Calculadora calc = new Calculadora();
-        int[] numeros = new int[] calc.print_index(tipo);
-        calc.print_results(numeros{0},numeros{1});
+        int[] numeros = calc.print_index(tipo);
+        calc.print_results(numeros[0],numeros[1]);
 
 
     }
