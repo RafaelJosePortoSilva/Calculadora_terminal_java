@@ -27,8 +27,6 @@ public class Main {
         Calculadora calc = new Calculadora();
         int[] numeros = calc.print_index(tipo);
         calc.print_results(numeros[0],numeros[1]);
-
-
     }
 }
 
