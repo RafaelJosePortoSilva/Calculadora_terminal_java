@@ -2,14 +2,16 @@ import java.util.Scanner;
 
 public class Calculadora {
 
-    public int[] print_index (int i){
+    private int tipo;
 
+    public int[] print_index (int i){
+        this.tipo = i;
         switch (i){
-            case 1:
+            case 1: // Tabuada
                 return print_index_tabuada();
-            case 2:
+            case 2: // soma
                 return print_index_soma();
-            case 3:
+            case 3: // multiplicacao
                 return print_index_multiplicacao();
         }
 
@@ -31,5 +33,13 @@ public class Calculadora {
     public int[] print_index_multiplicacao(){return new int[]{1};}
 
 
+    public void print_results(int num1, int num2){
+        switch (this.tipo){
+            case 1: // Tabuada
 
+
+
+        }
+
+    }
 }
